@@ -1,6 +1,10 @@
 # A3C Reinforcement Learning for Connect 4
 In this repo we provide code to train an AI agent to play Connect 4, and a GUI interface to play against the agent.
 
+# Details
+This repo implements the Asynchronous Advantage Actor-Critic (A3C) reinforcement learning model to play Connect 4. The board has 7 columns and 6 rows, players take it in turns to drop counters from the top - the winner is the first person to create an unbroken line of four counters (horizontally, vertically, or diagonally).
+
+
 # Useage
 To train the agent:
 ```

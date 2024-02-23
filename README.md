@@ -9,7 +9,8 @@ python train_ai_agent.py 8 --steps 5000000
 Here 8 is the number of processes, and --steps is an optional parameter to run the training for 5,000,000 training steps.
 
 To use the GUI, one must populate ```input_path_to_pretrained_agent``` in ```GUI.py``` and then run
-```python GUI.py
+```
+python GUI.py
 ```
 
 Play is performed by clicking on the top box of the column you want to drop your counter in.
